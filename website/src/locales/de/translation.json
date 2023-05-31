@@ -1,0 +1,36 @@
+{
+  "someThing": "default value",
+  "Header": {
+    "sramHeader": "SRAM"
+  },
+  "age": "Language",
+  "english": "English",
+  "german": "German - Deutsch",
+  "french": "French - français",
+  "italian": "Italian - italiano",
+  "spanish": "Spanish - español",
+  "japanese": "Japanese - 日本語",
+  "korean": "Korean - 한국어",
+  "dutch": "Dutch - Nederlands",
+  "portuguese": "Portuguese - português",
+  "thai": "Thai - ไทย",
+  "chinese": "Chinese - 中文",
+  "i18nFeature": {
+    "selectLanguage": "Select Language"
+  },
+  "Theme": {
+    "selectDark": "Select dark mode",
+    "selectLight": "Select light mode"
+  },
+  "PostsListing": {
+    "posts": "posts"
+  },
+  "HomePage": {
+    "homeTitle": "SRAM PRODUCT REGISTRATION"
+  },
+  "a": {
+    "b": {
+      "c": ""
+    }
+  }
+}

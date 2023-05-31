@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ExampleFeature  /> should match snapshot 1`] = `
+<h6
+  class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+>
+  PostsListing.posts
+</h6>
+`;

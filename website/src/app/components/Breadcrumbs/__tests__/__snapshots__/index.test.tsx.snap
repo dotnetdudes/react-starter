@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Breadcrumbs  /> should match snapshot 1`] = `
+<nav
+  aria-label="breadcrumb"
+  class="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-63vwl1-MuiTypography-root-MuiBreadcrumbs-root"
+>
+  <ol
+    class="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+  >
+    <li
+      class="MuiBreadcrumbs-li"
+    >
+      <a
+        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineHover css-le90w3-MuiTypography-root-MuiLink-root"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
