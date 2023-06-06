@@ -9,7 +9,6 @@
 import { HomePage } from './pages/HomePage/Loadable';
 import { Footer } from './components/Footer';
 import { NotFoundPage } from './components/NotFoundPage/Loadable';
-import { Breadcrumbs } from './components/Breadcrumbs';
 import { Helmet } from 'react-helmet-async';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import { styled } from '@mui/material/styles';

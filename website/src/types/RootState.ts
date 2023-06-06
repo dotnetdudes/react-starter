@@ -1,6 +1,5 @@
 import { ThemeState } from 'app/components/ThemeProvider/slice/types';
 import { ExampleFeatureState } from 'app/features/ExampleFeature/slice/types';
-import { TestState } from 'app/features/Test/slice/types';
 // [IMPORT NEW CONTAINERSTATE ABOVE] < Needed for generating containers seamlessly
 
 /* 
@@ -10,6 +9,5 @@ import { TestState } from 'app/features/Test/slice/types';
 export interface RootState {
   theme?: ThemeState;
   exampleFeature?: ExampleFeatureState;
-  test?: TestState;
   // [INSERT NEW REDUCER KEY ABOVE] < Needed for generating containers seamlessly
 }
