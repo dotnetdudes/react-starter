@@ -9,7 +9,7 @@
     "@mui/icons-material": "5.11.16",
     "@mui/material": "5.13.6",
     "@reduxjs/toolkit": "1.9.5",
-    "apisauce": "3.0.1",
+    "apisauce": "2.1.6",
     "date-fns": "2.30.0",
     "i18next": "22.5.1",
     "i18next-browser-languagedetector": "7.0.2",
