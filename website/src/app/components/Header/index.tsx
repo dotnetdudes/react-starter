@@ -16,7 +16,7 @@ export const Header = () => {
       position="sticky"
       sx={{
         height: '42px',
-        backgroundColor: '#fff',
+        // backgroundColor: '#fff',
         borderBottom: '1px solid #ededee',
         paddingRight: '1.3rem',
       }}
