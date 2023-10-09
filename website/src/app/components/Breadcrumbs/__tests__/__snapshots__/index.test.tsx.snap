@@ -12,7 +12,7 @@ exports[`<Breadcrumbs  /> should match snapshot 1`] = `
       class="MuiBreadcrumbs-li"
     >
       <a
-        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineHover css-nrxgm2-MuiTypography-root-MuiLink-root"
+        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineHover css-bvyohc-MuiTypography-root-MuiLink-root"
         href="/"
       >
         Home
