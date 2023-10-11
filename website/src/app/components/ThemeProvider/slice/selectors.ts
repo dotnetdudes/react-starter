@@ -7,12 +7,10 @@ export const selectTheme = createSelector(
   [(state: RootState) => state?.theme || initialState],
   theme => {
     // For Theme switching
-    // if (theme?.selected === 'system') {
-    //   return generateTheme('light');
-    // }
-    // return generateTheme(theme?.selected);
-
-    return generateTheme('light');
+    if (theme?.selected === 'system') {
+      return generateTheme('light');
+    }
+    return generateTheme(theme?.selected);
   },
 );
 

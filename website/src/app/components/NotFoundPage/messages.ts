@@ -4,7 +4,7 @@ import { _t } from 'app/utils/messages';
 export const messages = {
   title: () =>
     _t(
-      translations.HomePage.title,
-      'Home page title', // default value
+      translations.NotFoundPage.title,
+      'Page not found', // default value
     ),
 };

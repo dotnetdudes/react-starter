@@ -3,6 +3,7 @@
  * BackButton
  *
  */
+import { messages } from './messages';
 import { Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
@@ -20,13 +21,8 @@ export function BackButton() {
       variant="text"
       startIcon={<KeyboardBackspaceIcon />}
       onClick={goback}
-      sx={{
-        alignSelf: 'flex-start',
-        marginBottom: '20px',
-        color: 'secondary.main',
-      }}
     >
-      Back
+      {t(...messages.title())}
     </Button>
   );
 }

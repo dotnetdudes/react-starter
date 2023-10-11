@@ -7,5 +7,5 @@ import { translations } from 'locales/translations';
 import { _t } from 'app/utils/messages';
 
 export const messages = {
-  sramHeader: () => _t(translations.Header.sramHeader, 'SRAM'),
+  heading: () => _t(translations.Header.heading, 'Heading text'),
 };

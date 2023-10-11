@@ -84,8 +84,8 @@
     "jest-watch-typeahead": "^2.2.2",
     "lint-staged": "13.2.3",
     "mini-css-extract-plugin": "^2.7.6",
-    "node-plop": "0.26.2",
-    "plop": "2.7.4",
+    "node-plop": "0.26.3",
+    "plop": "2.7.6",
     "postcss": "^8.4.31",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-loader": "^7.3.3",
@@ -228,6 +228,14 @@
   "babel": {
     "presets": [
       "@babel/preset-react"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-proposal-private-property-in-object",
+        {
+          "loose": true
+        }
+      ]
     ]
   },
   "eslintConfig": {
