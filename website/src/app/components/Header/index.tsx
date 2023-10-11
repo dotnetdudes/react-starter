@@ -4,6 +4,7 @@
  *
  */
 import { messages } from './messages';
+import { ThemeSwitch } from '../ThemeSwitch';
 import Toolbar from '@mui/material/Toolbar';
 import { useTranslation } from 'react-i18next';
 import AppBar from '@mui/material/AppBar';
@@ -14,7 +15,10 @@ export const Header = () => {
 
   return (
     <AppBar position="sticky" elevation={0}>
-      <Toolbar variant="dense">{t(...messages.heading())}</Toolbar>
+      <Toolbar variant="dense">
+        {t(...messages.heading())}
+        <ThemeSwitch />
+      </Toolbar>
     </AppBar>
   );
 };
