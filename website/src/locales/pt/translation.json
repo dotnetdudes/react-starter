@@ -49,5 +49,8 @@
   },
   "ExampleFeature": {
     "error": "Error"
+  },
+  "ThemeSelector": {
+    "selectTheme": "Select Theme"
   }
 }

@@ -12,8 +12,8 @@ const ColumnItem = styled('div')(({ theme }) => ({
     marginRight: '0.1rem',
   },
   [theme.breakpoints.up('sm')]: {
-    marginLeft: '2rem',
-    marginRight: '2rem',
+    marginLeft: '1rem',
+    marginRight: '1rem',
   },
 }));
 

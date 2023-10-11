@@ -5,6 +5,7 @@ import Grid from '@mui/material/Grid';
 import { useTranslation } from 'react-i18next';
 import ColumnItem from 'app/components/ColumnItem';
 import { ExampleFeature } from 'app/features/ExampleFeature/Loadable';
+import { ThemeSelector } from 'app/components/ThemeSelector/Loadable';
 
 export function HomePage() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -20,10 +21,15 @@ export function HomePage() {
         />
       </Helmet>
       <Grid container spacing={2}>
-        <Grid item xs={12}>
+        <Grid item xs={12} lg={6}>
           <ColumnItem>
-            {t(...messages.title())}
+            <h1>{t(...messages.title())}</h1>
             <ExampleFeature />
+          </ColumnItem>
+        </Grid>
+        <Grid item xs={12} lg={6}>
+          <ColumnItem>
+            <ThemeSelector />
           </ColumnItem>
         </Grid>
       </Grid>
