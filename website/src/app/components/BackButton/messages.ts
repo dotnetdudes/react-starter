@@ -7,5 +7,5 @@ import { translations } from 'locales/translations';
 import { _t } from 'app/utils/messages';
 
 export const messages = {
-  error: () => _t(translations.ExampleFeature.error, 'Error'),
+  title: () => _t(translations.BackButton.title, 'Back'),
 };

@@ -3,7 +3,7 @@
  * ExampleFeature
  *
  */
-// import { messages } from './messages';
+import { messages } from './messages';
 import { useExampleFeatureSlice } from './slice';
 import { selectExampleFeature } from './slice/selectors';
 import { PostsListing } from './components/PostsListing';
@@ -32,7 +32,7 @@ export function ExampleFeature() {
     <>
       {error ? (
         <Alert severity="error">
-          <AlertTitle>Error</AlertTitle>
+          <AlertTitle>{t(...messages.error())}</AlertTitle>
           {errorMessage}
         </Alert>
       ) : (

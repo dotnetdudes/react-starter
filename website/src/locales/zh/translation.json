@@ -1,7 +1,8 @@
 {
   "someThing": "default value",
   "Header": {
-    "sramHeader": "SRAM"
+    "sramHeader": "SRAM",
+    "heading": "Heading text"
   },
   "age": "Language",
   "english": "English",
@@ -26,11 +27,30 @@
     "posts": "posts"
   },
   "HomePage": {
-    "homeTitle": "SRAM PRODUCT REGISTRATION"
+    "homeTitle": "SRAM PRODUCT REGISTRATION",
+    "title": "Home page title"
   },
   "a": {
     "b": {
       "c": ""
     }
+  },
+  "Footer": {
+    "title": "Footer title"
+  },
+  "BackButton": {
+    "title": "Back"
+  },
+  "Breadcrumbs": {
+    "home": "Home"
+  },
+  "NotFoundPage": {
+    "title": "Page not found"
+  },
+  "ExampleFeature": {
+    "error": "Error"
+  },
+  "ThemeSelector": {
+    "selectTheme": "Select Theme"
   }
 }

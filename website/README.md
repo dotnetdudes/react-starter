@@ -45,7 +45,7 @@ This section outlines some of the features which are included and configured to 
 [How to review a PR](./documentation/review.md)  
 
 ## References
-This Starter kit is inspired by the ***React Boilerplate*** and ***React Boilerplate CRA*** projects. The documentation for those projects is also a valuable resource.  
+This Starter kit is inspired by and built on the foundation of the ***React Boilerplate*** and ***React Boilerplate CRA*** projects. The documentation for those projects is a valuable resource.  
 [React Boilerplate](https://github.com/react-boilerplate/react-boilerplate)  
 [React Boilerplate CRA](https://react-boilerplate.github.io/react-boilerplate-cra-template/)  
 
