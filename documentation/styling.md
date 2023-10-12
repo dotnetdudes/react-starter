@@ -2,7 +2,7 @@
 
 ## Material UI
 
-THe CSS and Styling is handled though the [Material UI](https://mui.com/material-ui/getting-started/overview/) implementation using [Emotion](https://emotion.sh/docs/introduction) as the style engine.  
+THe CSS and Styling is handled though the [Material UI](https://mui.com/material-ui/getting-started/overview/).  
 
 ### Theming
 
@@ -14,9 +14,9 @@ The main styling should be implemented using Material UI [themes](https://mui.co
 
 Material UI provides some online tools to provide an easy interface for creating and customisimg thmemes and color palettes.  
 
-[MUI Theme Creator](https://bareynol.github.io/mui-theme-creator/) A tool to help design and customize themes for the MUI component library. Includes basic site templates to show various components and how they are affected by the theme.  
+[MUI Theme Creator](https://bareynol.github.io/mui-theme-creator/)    
 
-[Material Palette Generator](https://material.io/inline-tools/color/) The Material palette generator can be used to generate a palette for any color you input.  
+[Material Palette Generator](https://www.materialpalette.com/)  
 
 ## TailwindCSS
 
