@@ -31,7 +31,7 @@ export function PostsListing({ posts }: Props) {
         sx={{
           cursor: 'pointer',
           '&:hover': {
-            backgroundColor: 'grey.300',
+            backgroundColor: 'action.hover',
           },
         }}
       >

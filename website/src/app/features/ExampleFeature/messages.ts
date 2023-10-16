@@ -3,9 +3,9 @@
  * AND if you are also using the object syntax instead of string syntax. \
  * Check the documentation section i18n for details
  */
-// import { translations } from 'locales/translations';
-// import { _t } from 'app/utils/messages';
+import { translations } from 'locales/translations';
+import { _t } from 'app/utils/messages';
 
 export const messages = {
-  // someThing: () => _t(translations.someThing,'default value'),
+  error: () => _t(translations.ExampleFeature.error, 'Error'),
 };

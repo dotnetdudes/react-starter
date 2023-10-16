@@ -3,6 +3,7 @@
  * Breadcrumbs
  *
  */
+import { messages } from './messages';
 import { useLocation, Link as RouterLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Typography from '@mui/material/Typography';
@@ -31,7 +32,7 @@ export function Breadcrumbs() {
   return (
     <OriginalBreadcrumbs aria-label="breadcrumb">
       <LinkRouter underline="hover" color="inherit" to="/">
-        Home
+        {t(...messages.home())}
       </LinkRouter>
       {pathnames.map((value, index) => {
         const last = index === pathnames.length - 1;

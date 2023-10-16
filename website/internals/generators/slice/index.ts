@@ -2,12 +2,11 @@
  * Container Generator
  */
 
-import { Actions, PlopGeneratorConfig } from 'node-plop';
-import path from 'path';
-import inquirer from 'inquirer';
-
-import { pathExists } from '../utils';
 import { baseGeneratorPath } from '../paths';
+import { pathExists } from '../utils';
+import { Actions, PlopGeneratorConfig } from 'node-plop';
+import inquirer from 'inquirer';
+import path from 'path';
 
 inquirer.registerPrompt('directory', require('inquirer-directory'));
 

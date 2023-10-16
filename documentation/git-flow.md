@@ -1,6 +1,6 @@
 # GIT
 
-This project is configured to use the [Gitlab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html) branching model.
+This project is initially configured to use the [Gitlab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html) branching model.
 
 ## Reference
 

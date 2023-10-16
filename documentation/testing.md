@@ -12,6 +12,8 @@ There may be a requirement for a Custom render method that includes the global c
 
 ## References
 
+[CRA Docs](https://cansahin.gitbook.io/react-boilerplate-cra-template/building-blocks/testing)  
+
 [How to use React Testing Library Tutorial](https://www.robinwieruch.de/react-testing-library)  
 
 [Example](https://testing-library.com/docs/react-testing-library/example-intro/)  

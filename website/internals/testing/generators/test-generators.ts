@@ -1,6 +1,6 @@
 import chalk from 'chalk';
 import fs from 'fs';
-import rimraf from 'rimraf';
+import { rimrafSync } from 'rimraf';
 import shell from 'shelljs';
 import path from 'path';
 import nodePlop from 'node-plop';
@@ -144,10 +144,10 @@ function checkTypescript() {
 }
 
 function removeGeneratedComponent(folderPath: string, name: string) {
-  return rimraf.sync(path.join(baseGeneratorPath, folderPath, name));
+  return rimrafSync(path.join(baseGeneratorPath, folderPath, name));
 }
 function removeGeneratedSlice(folderPath: string) {
-  return rimraf.sync(path.join(baseGeneratorPath, folderPath, 'slice'));
+  return rimrafSync(path.join(baseGeneratorPath, folderPath, 'slice'));
 }
 
 async function handleResult({

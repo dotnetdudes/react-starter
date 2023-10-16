@@ -1,12 +1,17 @@
+import { messages } from './messages';
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
 
 export function NotFoundPage() {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const { t, i18n } = useTranslation();
+
   return (
     <>
       <Helmet>
-        <title>404 Page Not Found</title>
+        <title>{t(...messages.title())}</title>
         <meta name="description" content="Page not found" />
       </Helmet>
       <Box
@@ -26,7 +31,7 @@ export function NotFoundPage() {
             </span>
             4
           </div>
-          <div>Page not found.</div>
+          <div>{t(...messages.title())}</div>
         </div>
       </Box>
     </>

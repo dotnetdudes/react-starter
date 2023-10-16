@@ -1,44 +1,39 @@
-import { MuiTypography as MuiTypographyBase } from './themes/base/typography/MuiTypography';
-import { MuiTypography as MuiTypographyDark } from './themes/dark/typography/MuiTypography';
+import options from './themes/light';
+import darkOptions from './themes/dark';
+import redOptions from './themes/red';
+import greenOptions from './themes/green';
+import blueOptions from './themes/blue';
 import { createTheme, responsiveFontSizes } from '@mui/material/styles';
-import { PaletteMode } from '@mui/material';
-import { MuiButtonBase as MuiButtonBaseBase } from 'app/components/ThemeProvider/themes/base/components/MuiButtonBase';
-import { MuiButton as MuiButtonBase } from 'app/components/ThemeProvider/themes/base/components/MuiButton';
-import { MuiAccordion as MuiAccordionBase } from 'app/components/ThemeProvider/themes/base/components/MuiAccordion';
-import { MuiAccordionSummary as MuiAccordionSummaryBase } from 'app/components/ThemeProvider/themes/base/components/MuiAccordionSummary';
-import { primary as primaryLight } from 'app/components/ThemeProvider/themes/light/palette/primary';
-import { secondary as secondaryLight } from 'app/components/ThemeProvider/themes/light/palette/secondary';
-import { primary as primaryDark } from 'app/components/ThemeProvider/themes/dark/palette/primary';
 
-const getDesignTokens = (mode: PaletteMode) => ({
-  palette: {
-    mode,
-    primary:
-      mode === 'dark'
-        ? { ...primaryDark }
-        : {
-            ...primaryLight,
-          },
-    secondary: {
-      ...secondaryLight,
-    },
-  },
-  typography:
-    mode === 'dark'
-      ? { ...MuiTypographyDark }
-      : {
-          ...MuiTypographyBase,
-        },
-  components: {
-    ...MuiButtonBaseBase,
-    ...MuiButtonBase,
-    ...MuiAccordionBase,
-    ...MuiAccordionSummaryBase,
-  },
-});
+import { ThemeOptions } from '@mui/material';
 
-export const generateTheme = (PaletteMode: PaletteMode) => {
-  let theme = createTheme(getDesignTokens(PaletteMode));
+const getThemeOptions = (name: string): ThemeOptions => {
+  let themeOptions;
+  switch (name) {
+    case 'light':
+      themeOptions = options;
+      break;
+    case 'dark':
+      themeOptions = darkOptions;
+      break;
+    case 'green':
+      themeOptions = greenOptions;
+      break;
+    case 'red':
+      themeOptions = redOptions;
+      break;
+    case 'blue':
+      themeOptions = blueOptions;
+      break;
+    default:
+      themeOptions = options;
+  }
+  return themeOptions;
+};
+
+export const generateTheme = (name: string) => {
+  const options = getThemeOptions(name);
+  let theme = createTheme(options);
   theme = responsiveFontSizes(theme);
   return theme;
 };

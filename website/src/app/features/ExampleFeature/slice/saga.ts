@@ -3,6 +3,7 @@ import { call, put, takeLatest, delay } from 'redux-saga/effects';
 import ExampleApiManager from 'app/services/example/exampleApiManager';
 
 function* fetchPosts(action) {
+  console.log('saga');
   try {
     const API = ExampleApiManager.getInstance().api;
     for (let i = 0; i < 5; i += 1) {
@@ -21,7 +22,7 @@ function* fetchPosts(action) {
       }
     }
   } catch (error) {
-    //
+    console.log(error);
   }
 }
 
