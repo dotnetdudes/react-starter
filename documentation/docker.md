@@ -1,13 +1,6 @@
 # Docker
 
-Docker is used within the project in a couple of distinct ways;  
-
-- Development. To add any additional resources that are required in the development environment such as back end services or databases, whatever.
-- Deployment. There is a basic implementation of dockerising the react application with Nginx.
-
-## Development
-
-The *docker-compose.yml* file in the project root can be used to add resources such as database servers. Any configuration of these resources can be acheived using the provided PowerShell scripts or using docker [entrypoint](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#entrypoint) method.  
+Deployment. There is a basic implementation of dockerising the react application with Nginx.  
 
 ## Deployment
 
@@ -24,4 +17,4 @@ Https and SSL should be configured according to your requirements. (Optional)
 #### Build
 The Docker image can be built by running ```docker-compose -f docker-compose-prod.yml build```.
 
-You can run the image directly or push to a container registry. For example ```docker run -p 80:80 --name register-app eea-react-prod```. This example uses the default image name from the *docker-compose-prod.yml* file.  
+You can run the image directly or push to a container registry. For example ```docker run -p 80:80 --name dotnetdudes-react-prod```. This example uses the default image name from the *docker-compose-prod.yml* file.  

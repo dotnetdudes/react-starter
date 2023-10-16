@@ -12,4 +12,6 @@ The code generator can be run by using the `yarn generate` command within the 'w
 
 It is possible to amend existing templates or add new templates to the code generation. The assets are stored in the **'internals/generators'** directory.
 
+[CRA Documentation](https://cansahin.gitbook.io/react-boilerplate-cra-template/tools/commands)  
+
 [Back to index](../README.md)
