@@ -6,11 +6,7 @@ Automated creation of components, containers, slices and tests.
 
 The code generator can be run by using the `yarn generate` command within the 'website' directory.
 
-1. Select the type of resource to generate from component, container, language.
-2. Select the type of component. *In the case of component or container*, from;
-  - Stateless function
-  - React Pure Component
-  - React Component
+1. Select the type of resource to generate from component, slice.
 
 ## Create or Update a template
 

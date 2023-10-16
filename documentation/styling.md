@@ -20,4 +20,6 @@ Material UI provides some online tools to provide an easy interface for creating
 
 ## TailwindCSS
 
-The boilerplate is configured for Tailwind
+The boilerplate is configured for Tailwind CSS, it is only neccessary to add a Tailwind config file in the root directory to commence work with Tailwind CSS.  
+
+[Back to index](../README.md)
