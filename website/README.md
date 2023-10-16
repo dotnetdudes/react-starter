@@ -42,14 +42,13 @@ This section outlines some of the features which are included and configured to 
 [Drag and Drop](./documentation/drag.md)   
 [Environment and Configuration](./documentation/configuration.md)  
 [Accessibility (WCAG)](documentation/accessibility.md)  
-[How to review a PR](./documentation/review.md)  
 
 ## References
-This Starter kit is inspired by and built on the foundation of the ***React Boilerplate*** and ***React Boilerplate CRA*** projects. The documentation for those projects is a valuable resource.  
+This Starter kit is inspired by and built using the  ***React Boilerplate*** and ***React Boilerplate CRA*** projects. The documentation for those projects is an invaluable resource.  
 [React Boilerplate](https://github.com/react-boilerplate/react-boilerplate)  
 [React Boilerplate CRA](https://react-boilerplate.github.io/react-boilerplate-cra-template/)  
 
-## Some React and Redux Coding Resources
+## Some Relevant React and Redux Coding Resources
 [React App Performance](https://blog.bitsrc.io/10-ways-to-optimize-your-react-apps-performance-e5e437c9abce)  
 [When to useMemo and useCallback](https://kentcdodds.com/blog/usememo-and-usecallback)  
 [Guide to UseCallback](https://dmitripavlutin.com/dont-overuse-react-usecallback/)  

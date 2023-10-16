@@ -1,5 +1,5 @@
 # Developer Docs
-This document describes the technologies and techniques used to work on this application.    
+This document describes the technologies and techniques used.    
 
 ## Prerequisites
 These can all be installed globally.  
@@ -47,11 +47,11 @@ This section outlines some of the features which are included and configured to 
 [Accessibility (WCAG)](documentation/accessibility.md)   
 
 ## References
-This architecture is inspired by the ***React Boilerplate*** and ***React Boilerplate CRA*** projects. The documentation for those projects is also a valuable resource.  
+This starter is built using the ***React Boilerplate*** and ***React Boilerplate CRA*** projects. The documentation for those projects is a very valuable resource.  
 [React Boilerplate](https://github.com/react-boilerplate/react-boilerplate)  
 [React Boilerplate CRA](https://react-boilerplate.github.io/react-boilerplate-cra-template/)  
 
-## Some React and Redux Coding Resources
+## Some Relevant React and Redux Coding Articles
 [React App Performance](https://blog.bitsrc.io/10-ways-to-optimize-your-react-apps-performance-e5e437c9abce)  
 [When to useMemo and useCallback](https://kentcdodds.com/blog/usememo-and-usecallback)  
 [Guide to UseCallback](https://dmitripavlutin.com/dont-overuse-react-usecallback/)  

@@ -12,7 +12,15 @@ process.on('unhandledRejection', err => {
 });
 
 // Ensure environment variables are read.
-require('../config/env');
+// require('../config/env');
+/* var dotenv = require('dotenv');
+var dotenvExpand = require('dotenv-expand');
+
+var myEnv = dotenv.config();
+dotenvExpand.expand(myEnv);
+
+console.log(process.env); */
+// throw 'end load env';
 
 const fs = require('fs');
 const chalk = require('react-dev-utils/chalk');
@@ -37,6 +45,9 @@ const react = require(require.resolve('react', { paths: [paths.appPath] }));
 const env = getClientEnvironment(paths.publicUrlOrPath.slice(0, -1));
 const useYarn = fs.existsSync(paths.yarnLockFile);
 const isInteractive = process.stdout.isTTY;
+
+console.log(process.env);
+// throw 'loaded env';
 
 // Warn and crash if required files are missing
 if (!checkRequiredFiles([paths.appHtml, paths.appIndexJs])) {

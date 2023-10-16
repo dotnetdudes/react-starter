@@ -1,6 +1,6 @@
 # Visual Studio Code
 
-This editor works very well with the boilerplate. It has very good support for [Flow](https://flow.org/) type checking and [Jest](https://jestjs.io/) testing also.
+This editor works very well with the boilerplate. It has very good support for type checking and [Jest](https://jestjs.io/) testing also.
 
 ### Plugins/ Extensions
 

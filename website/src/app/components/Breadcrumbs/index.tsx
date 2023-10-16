@@ -32,7 +32,7 @@ export function Breadcrumbs() {
   return (
     <OriginalBreadcrumbs aria-label="breadcrumb">
       <LinkRouter underline="hover" color="inherit" to="/">
-      {t(...messages.home())}
+        {t(...messages.home())}
       </LinkRouter>
       {pathnames.map((value, index) => {
         const last = index === pathnames.length - 1;
