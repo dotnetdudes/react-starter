@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFoundPage  /> should match snapshot 1`] = `
+<div
+  class="MuiBox-root css-1xy9oj"
+>
+  <div>
+    <div>
+      4
+      <span
+        aria-label="Crying Face"
+        role="img"
+      >
+        😢
+      </span>
+      4
+    </div>
+    <div>
+      NotFoundPage.title
+    </div>
+  </div>
+</div>
+`;
